@@ -15,6 +15,7 @@ gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'bullet'
 gem 'faker'
 gem 'devise', '~> 4.3.0'
+gem 'paperclip', '~> 5.0.0'
 
 
 group :development, :test do
