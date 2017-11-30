@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  resources :albums
+  resources :albums do
     resources :photos
   end
 
