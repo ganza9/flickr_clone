@@ -1,8 +1,24 @@
 <h2>Find Your Inspiration</h2>
 
-<h4>Join the Flickr community, home to tens of billions of photos and 2 million groups.</h4>
+<% if !current_user%>
+
+  <h4>Join the Flickr community, home to tens of billions of photos and 2 million groups.</h4>
+
+
+  <div class="btn btn-success">
+    <%= link_to "Sign up", '/users/sign_up' %>
+  </div>
+
+ <%else %>
+
+ <h1>
+
+<%end %>
+
+
+<!-- <h4>Join the Flickr community, home to tens of billions of photos and 2 million groups.</h4>
 
 
 <div class="btn btn-success">
   <%= link_to "Sign up", '/users/sign_up' %>
-</div>
+</div> -->
