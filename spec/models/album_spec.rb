@@ -9,4 +9,5 @@ describe Album do
     album = FactoryBot.create(:album, :title => "Flatstick pub")
     album.title.should eq "Flatstick pub"
   end
+  
 end
