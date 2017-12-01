@@ -1,6 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+<%= image_tag "rainier.jpg" %>
+</p>
+
+<p>
   <strong>Title:</strong>
   <%= @photo.title %>
 </p>
@@ -9,6 +13,7 @@
   <strong>Description:</strong>
   <%= @photo.description %>
 </p>
+
 
 <%= link_to 'Edit', edit_photo_path(@photo) %> |
 <%= link_to 'Back', photos_path %>
